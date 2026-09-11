@@ -84,7 +84,6 @@ def call_openai(
         max_tokens=max_tokens,
     )
     latency = time.perf_counter() - start
-
     return response.choices[0].message.content, latency
     raise NotImplementedError("Implement call_openai")
 

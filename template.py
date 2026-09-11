@@ -45,7 +45,7 @@ OPENAI_MINI_MODEL = os.getenv("LAB_MINI_MODEL", "gpt-4o-mini")
 def call_openai(
     prompt: str,
     model: str = OPENAI_MODEL,
-    temperature: float = 0.7,
+    temperature: float = 0.5,
     top_p: float = 0.9,
     max_tokens: int = 256,
 ) -> tuple[str, float]:
