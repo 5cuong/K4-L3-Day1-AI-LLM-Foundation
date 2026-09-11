@@ -15,11 +15,11 @@ Gọi `call_openai` với temperature 0.0, 0.5, 1.0 và 1.5 dùng prompt
 **"Hãy kể cho tôi một sự thật thú vị về Việt Nam."**
 
 **Bạn nhận thấy quy luật gì qua bốn phản hồi?** (2–3 câu)
-> *Câu trả lời của bạn*
+> *Các câu trả lời nhận được gần giống nhau và thời gian phản hổi giữa các mô hình khác nhau *
 
 ### Câu 1.2 — Chọn temperature cho sản phẩm
 **Bạn sẽ đặt temperature bao nhiêu cho chatbot hỗ trợ khách hàng, và tại sao?**
-> *Câu trả lời của bạn*
+> *tôi sẽ chọn temperature 1.0 cho chatbot hỗ trợ khách hàng*
 
 ### Câu 1.3 — Đánh đổi chi phí
 Kịch bản: 10.000 người dùng hoạt động mỗi ngày, mỗi người gọi API 3 lần,
